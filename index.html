@@ -1,174 +1,33 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio d'Abdeljabbar Benhaddou, webmaster et développeur web senior à Casablanca, spécialisé en front-end, webdesign, SEO et maintenance technique.">
-  <meta name="theme-color" content="#08111f">
-  <title>Abdeljabbar Benhaddou | Webmaster & développeur web senior</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2308111f'/%3E%3Cpath d='M15 43 27 16h10l12 27H39l-2-6H26l-2 6Zm14-14h5l-2.5-7Z' fill='%235eead4'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="page-glow page-glow-one"></div>
-  <div class="page-glow page-glow-two"></div>
-
-  <header class="site-header" id="siteHeader">
-    <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
-      <span class="brand-mark">AB</span>
-      <span class="brand-name">Abdeljabbar Benhaddou</span>
-    </a>
-
-    <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mainNav">
-      <span></span><span></span><span></span>
-    </button>
-
-    <nav class="main-nav" id="mainNav" aria-label="Navigation principale">
-      <a href="#profil">Profil</a>
-      <a href="#competences">Compétences</a>
-      <a href="#experience">Expérience</a>
-      <a href="#formation">Formation</a>
-      <a class="nav-contact" href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero" id="accueil">
-      <div class="hero-copy reveal">
-        <p class="eyebrow"><span></span> Disponible pour de nouvelles opportunités</p>
-        <h1>Je conçois des expériences web <em>claires, rapides et utiles.</em></h1>
-        <p class="hero-role">Webmaster <b>•</b> Web Developer <b>•</b> Web Design <b>•</b> SEO & Technical Maintenance</p>
-        <p class="hero-intro">Webmaster et développeur front-end senior basé à Casablanca, je transforme les besoins clients en sites web attractifs, interactifs et faciles à administrer.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#contact">Me contacter <span aria-hidden="true">↗</span></a>
-          <a class="button button-secondary" href="assets/CV_Abdeljabbar_Benhaddou_FR.pdf" download>Télécharger mon CV <span aria-hidden="true">↓</span></a>
-        </div>
-      </div>
-
-      <aside class="hero-panel reveal" aria-label="Résumé professionnel">
-        <div class="code-top"><span></span><span></span><span></span><small>profile.js</small></div>
-        <div class="code-body">
-          <p><i>const</i> <strong>professional</strong> = {</p>
-          <p class="indent">name: <mark>"Abdeljabbar"</mark>,</p>
-          <p class="indent">location: <mark>"Casablanca"</mark>,</p>
-          <p class="indent">experience: <mark>"7+ years"</mark>,</p>
-          <p class="indent">focus: [</p>
-          <p class="indent-two"><mark>"Front-end"</mark>, <mark>"SEO"</mark>,</p>
-          <p class="indent-two"><mark>"Web design"</mark>, <mark>"Support"</mark></p>
-          <p class="indent">],</p>
-          <p class="indent">status: <span class="available">"available"</span></p>
-          <p>};</p>
-        </div>
-        <div class="experience-badge"><strong>7+</strong><span>années<br>d’expérience</span></div>
-      </aside>
-    </section>
-
-    <section class="section profile-section" id="profil">
-      <div class="section-heading reveal">
-        <p class="section-number">01 — Profil</p>
-        <h2>Une vision complète du web</h2>
-      </div>
-      <div class="profile-grid">
-        <p class="profile-lead reveal">Depuis plus de sept ans, je crée, intègre, administre et optimise des sites web avec une approche qui réunit <strong>technique, design, contenu et visibilité.</strong></p>
-        <div class="profile-text reveal">
-          <p>Mon expérience me permet d’intervenir sur l’ensemble du cycle d’un projet : compréhension du besoin, conception, intégration, mise en ligne, optimisation SEO et maintenance.</p>
-          <p>Rigoureux et orienté solutions, je veille à produire des interfaces cohérentes tout en offrant un accompagnement fiable aux clients et aux utilisateurs.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="competences">
-      <div class="section-heading reveal">
-        <p class="section-number">02 — Compétences</p>
-        <h2>Mes domaines d’intervention</h2>
-      </div>
-      <div class="skills-grid">
-        <article class="skill-card reveal">
-          <span class="skill-index">01</span><div class="skill-icon">&lt;/&gt;</div>
-          <h3>Développement web</h3>
-          <p>Création, intégration et optimisation d’interfaces web performantes et responsive.</p>
-          <ul><li>Front-end</li><li>HTML5 & JavaScript</li><li>WordPress</li><li>Gestion de domaines</li></ul>
-        </article>
-        <article class="skill-card reveal">
-          <span class="skill-index">02</span><div class="skill-icon">◇</div>
-          <h3>Web design</h3>
-          <p>Conception d’interfaces attractives, interactives et adaptées à l’identité de chaque projet.</p>
-          <ul><li>Conception UI</li><li>Intégration visuelle</li><li>Éléments graphiques</li><li>Responsive design</li></ul>
-        </article>
-        <article class="skill-card reveal">
-          <span class="skill-index">03</span><div class="skill-icon">↗</div>
-          <h3>Contenu & SEO</h3>
-          <p>Création et structuration de contenus pensés pour les lecteurs et les moteurs de recherche.</p>
-          <ul><li>Rédaction web</li><li>SEO on-page</li><li>Gestion de contenu</li><li>Community management</li></ul>
-        </article>
-        <article class="skill-card reveal">
-          <span class="skill-index">04</span><div class="skill-icon">⌁</div>
-          <h3>Maintenance technique</h3>
-          <p>Suivi des sites, assistance utilisateurs et résolution des incidents matériels et logiciels.</p>
-          <ul><li>Maintenance web</li><li>Support client</li><li>Help desk</li><li>Diagnostic technique</li></ul>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="experience">
-      <div class="section-heading reveal">
-        <p class="section-number">03 — Parcours</p>
-        <h2>Expérience professionnelle</h2>
-      </div>
-      <div class="timeline">
-        <article class="timeline-item featured reveal">
-          <div class="timeline-date">Juin 2020 — aujourd’hui</div>
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div><p class="company">Allowin · Casablanca</p><h3>Webmaster</h3></div>
-            <ul><li>Création et intégration des contenus de sites web.</li><li>Conception de nouveaux sites et gestion de leur mise en ligne.</li><li>Modification et optimisation de sites existants.</li><li>Rédaction web, application des bonnes pratiques SEO et création d’éléments graphiques.</li></ul>
-          </div>
-        </article>
-        <article class="timeline-item reveal">
-          <div class="timeline-date">Janv. — avr. 2020</div><div class="timeline-dot"></div>
-          <div class="timeline-content"><div><p class="company">Outsourcia – GSK · Casablanca</p><h3>Agent help desk</h3></div><ul><li>Qualification des demandes utilisateurs, résolution d’incidents matériels et logiciels, puis suivi dans la base de données.</li></ul></div>
-        </article>
-        <article class="timeline-item reveal">
-          <div class="timeline-date">Août — nov. 2019</div><div class="timeline-dot"></div>
-          <div class="timeline-content"><div><p class="company">Sjoocel – Majorel · Casablanca</p><h3>Webdesigner</h3></div><ul><li>Développement de sites WordPress et création puis intégration de leurs contenus.</li></ul></div>
-        </article>
-        <article class="timeline-item reveal">
-          <div class="timeline-date">Févr. — mars 2019</div><div class="timeline-dot"></div>
-          <div class="timeline-content"><div><p class="company">RevoMade · São Paulo</p><h3>Technicien spécialisé</h3></div><ul><li>Développement d’un site publicitaire et d’une application de gestion XML.</li><li>Création de bases XML pour Revolution Raiderz, community management et traduction.</li></ul></div>
-        </article>
-        <article class="timeline-item reveal">
-          <div class="timeline-date">Févr. — avr. 2017</div><div class="timeline-dot"></div>
-          <div class="timeline-content"><div><p class="company">SCOTEB · El Jadida</p><h3>Technicien informatique</h3></div><ul><li>Installation, configuration et maintenance des postes, ordinateurs portables, matériels et logiciels.</li></ul></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="formation">
-      <div class="section-heading reveal"><p class="section-number">04 — Formation</p><h2>Diplômes & certifications</h2></div>
-      <div class="education-grid">
-        <article class="education-card main-education reveal"><span>2017 — 2019</span><h3>Technicien spécialisé en techniques de développement informatique</h3><p>ISTA NTIC 1 · Casablanca</p><div class="tags"><b>Microsoft HTML5</b><b>JavaScript</b><b>Database Fundamentals</b><b>Networking</b><b>Software Development</b><b>CISCO IT Essentials</b></div></article>
-        <article class="education-card reveal"><span>2015 — 2017</span><h3>Technicien en maintenance et support informatique et réseau</h3><p>ISTA Al Massira · El Jadida</p><div class="tags"><b>CCNA 1</b><b>CCNA 2</b><b>Linux Essentials</b><b>IT Essentials</b></div></article>
-        <article class="education-card reveal"><span>2015</span><h3>Formation bureautique Microsoft Office Specialist</h3><p>ISTA Hay Al Matar · El Jadida</p><div class="tags"><b>Microsoft Word</b><b>Word Expert</b><b>Excel</b></div></article>
-        <article class="education-card compact reveal"><span>2013 — 2014</span><h3>Technicien en maintenance électrique industrielle</h3><p>ISTA Al Massira · El Jadida</p></article>
-        <article class="education-card compact reveal"><span>2012 — 2013</span><h3>Baccalauréat en sciences de la vie et de la Terre</h3><p>Lycée Bir Anzaran · El Jadida</p></article>
-      </div>
-    </section>
-
-    <section class="section extras-section">
-      <div class="languages reveal"><p class="section-number">Langues</p><div><span>Arabe</span><b>Courant · C2</b></div><div><span>Anglais</span><b>Courant · C2</b></div><div><span>Français</span><b>Élémentaire · A1</b></div></div>
-      <div class="interests reveal"><p class="section-number">Centres d’intérêt</p><div class="interest-list"><span>Animation</span><span>Cinéma & musique</span><span>Lecture & écriture</span><span>Jeux vidéo</span><span>Développement de jeux</span></div></div>
-    </section>
-
-    <section class="contact-section" id="contact">
-      <div class="contact-copy reveal"><p class="eyebrow"><span></span> Parlons de votre projet</p><h2>Vous recherchez un profil web polyvalent et expérimenté&nbsp;?</h2><p>Je suis disponible pour échanger autour d’un poste, d’une collaboration ou d’un projet digital.</p></div>
-      <div class="contact-actions reveal"><a class="contact-email" href="mailto:benhaddou.abdeljabbar@gmail.com"><small>E-mail</small><strong>benhaddou.abdeljabbar@gmail.com</strong><span>↗</span></a><a class="contact-link" href="https://linkedin.com/in/exele/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a><a class="contact-link" href="assets/CV_Abdeljabbar_Benhaddou_FR.pdf" download>CV français <span>↓</span></a></div>
-    </section>
-  </main>
-
-  <footer><p>© <span id="year"></span> Abdeljabbar Benhaddou</p><p>Conçu avec attention à Casablanca.</p></footer>
-  <script src="script.js"></script>
-</body>
-</html>
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Portfolio d'Abdeljabbar Benhaddou, webmaster, web designer et développeur web à Casablanca, spécialisé en WordPress, front-end, contenu, SEO et optimisation."><meta name="theme-color" content="#08111f"><title>Abdeljabbar Benhaddou | Webmaster et développeur web</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet"><link rel="icon" type="image/png" href="assets/favicon.png"><link rel="stylesheet" href="style.css"></head><body>
+<div class="page-glow page-glow-one"></div><div class="page-glow page-glow-two"></div>
+<header class="site-header" id="siteHeader"><a class="brand" href="#accueil" aria-label="Retour à l'accueil"><span class="brand-mark"><img src="assets/dark-land-project-logo.png" alt="Logo Dark Land Project"></span><span class="brand-name">Abdeljabbar Benhaddou</span></a><button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mainNav"><span></span><span></span><span></span></button><nav class="main-nav" id="mainNav" aria-label="Navigation principale"><a href="#profil">Profil</a><a href="#competences">Compétences</a><a href="#projets">Projets</a><a href="#experience">Expérience</a><a href="#formation">Formation</a><a class="nav-contact" href="#contact">Contact</a></nav></header>
+<main><section class="hero" id="accueil"><div class="hero-copy reveal"><p class="eyebrow"><span></span> Disponible pour de nouvelles opportunités</p><h1>Je conçois des expériences web <em>claires, rapides et utiles.</em></h1><p class="hero-role">Webmaster <b>•</b> Web Developer <b>•</b> Web Design <b>•</b> SEO et maintenance technique</p><p class="hero-intro">Webmaster et développeur front-end basé à Casablanca, je transforme les besoins clients en sites web modernes, structurés, performants et faciles à administrer.</p><div class="hero-actions"><a class="button button-primary" href="#contact">Me contacter <span>↗</span></a><a class="button button-secondary" href="assets/CV_Abdeljabbar_Benhaddou_FR.pdf" download>Télécharger mon CV <span>↓</span></a></div></div>
+<aside class="hero-panel reveal" aria-label="Résumé professionnel"><div class="code-top"><span></span><span></span><span></span><small>profile.js</small></div><div class="code-body"><p><i>const</i> <strong>professional</strong> = {</p><p class="indent">name: <mark>"Abdeljabbar"</mark>,</p><p class="indent">location: <mark>"Morocco, Casablanca"</mark>,</p><p class="indent">experience: <mark>"7+ years"</mark>,</p><p class="indent">focus: [</p><p class="indent-two"><mark>"Front-end"</mark>, <mark>"WordPress"</mark>,</p><p class="indent-two"><mark>"Web design"</mark>, <mark>"SEO"</mark>,</p><p class="indent-two"><mark>"Content creation"</mark>,</p><p class="indent-two"><mark>"Content integration"</mark>,</p><p class="indent-two"><mark>"Optimization"</mark>, <mark>"Support"</mark></p><p class="indent">],</p><p class="indent">status: <span class="available">"available"</span></p><p>};</p></div><div class="experience-badge"><strong>7+</strong><span>années<br>d’expérience</span></div></aside></section>
+<section class="section" id="profil"><div class="section-heading reveal"><p class="section-number">01 — Profil</p><h2>Une vision complète du web</h2></div><div class="profile-grid"><p class="profile-lead reveal">Depuis plus de sept ans, je crée, intègre, administre et optimise des sites web avec une approche qui réunit <strong>technique, design, contenu et visibilité.</strong></p><div class="profile-text reveal"><p>Mon expérience me permet d’intervenir sur l’ensemble du cycle d’un projet : compréhension du besoin, conception, intégration, mise en ligne, optimisation SEO et maintenance.</p><p>Rigoureux et orienté solutions, je veille à produire des interfaces cohérentes tout en offrant un accompagnement fiable aux clients et aux utilisateurs.</p></div></div></section>
+<section class="section" id="competences"><div class="section-heading reveal"><p class="section-number">02 — Compétences</p><h2>Mes domaines d’intervention</h2></div><div class="skills-grid">
+<article class="skill-card reveal"><span class="skill-index">01</span><div class="skill-icon">&lt;/&gt;</div><h3>Développement web</h3><p>Création, intégration et optimisation d’interfaces performantes et responsive.</p><ul><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>WordPress</li><li>Divi</li><li>Elementor</li><li>XML</li><li>Domaines et hébergement</li></ul></article>
+<article class="skill-card reveal"><span class="skill-index">02</span><div class="skill-icon">◇</div><h3>Web design</h3><p>Conception d’interfaces modernes adaptées à l’identité et aux objectifs du projet.</p><ul><li>Conception UI</li><li>Webdesign</li><li>Intégration visuelle</li><li>Responsive design</li><li>Expérience utilisateur</li><li>Éléments graphiques</li><li>Formulaires</li><li>Appels à l’action</li></ul></article>
+<article class="skill-card reveal"><span class="skill-index">03</span><div class="skill-icon">↗</div><h3>Contenu et SEO</h3><p>Création et structuration de contenus pensés pour les utilisateurs et les moteurs de recherche.</p><ul><li>Création de contenu</li><li>Intégration de contenu</li><li>Rédaction web</li><li>SEO on-page</li><li>Structure sémantique</li><li>SEO local</li><li>Gestion de contenu</li><li>Community management</li></ul></article>
+<article class="skill-card reveal"><span class="skill-index">04</span><div class="skill-icon">⌁</div><h3>Optimisation et support</h3><p>Suivi des sites, amélioration continue, assistance et résolution des incidents techniques.</p><ul><li>Maintenance web</li><li>Performances</li><li>Mises à jour</li><li>Support client</li><li>Help desk</li><li>Diagnostic</li><li>Résolution d’incidents</li><li>Assistance utilisateurs</li></ul></article></div></section>
+<section class="section projects-section" id="projets"><div class="section-heading reveal"><p class="section-number">03 — Réalisations</p><h2>Projets réalisés avec Elypse</h2></div><p class="projects-intro reveal">Une sélection de sites sur lesquels je suis intervenu en web design, front-end, SEO, création et intégration de contenu, ainsi qu’en optimisation.</p><div class="projects-grid">
+<article class="project-card reveal"><a class="project-preview project-dj" href="http://dj-vannes.fr/" target="_blank" rel="noopener"><span class="project-browser"><i></i><i></i><i></i></span><div class="project-visual"><small>DJ et événementiel</small><strong>JUNIOR<em>deejay</em></strong><span>Animation</span></div></a><div class="project-content"><p>DJ et animateur</p><h3>JUNIORdeejay Animation</h3><a href="http://dj-vannes.fr/" target="_blank" rel="noopener">Voir le site <span>↗</span></a></div></article>
+<article class="project-card reveal"><a class="project-preview project-garden" href="http://elagueur-chevalier.fr/" target="_blank" rel="noopener"><span class="project-browser"><i></i><i></i><i></i></span><div class="project-visual"><small>Parcs et jardins</small><strong>Michel Chevalier</strong><span>Élagage • Entretien • Paysage</span></div></a><div class="project-content"><p>Entretien de parcs et jardins</p><h3>Michel Chevalier</h3><a href="http://elagueur-chevalier.fr/" target="_blank" rel="noopener">Voir le site <span>↗</span></a></div></article>
+<article class="project-card reveal"><a class="project-preview project-electric" href="https://technoolj-24.fr/" target="_blank" rel="noopener"><span class="project-browser"><i></i><i></i><i></i></span><div class="project-visual"><small>Électricité</small><strong>Techno OL'J</strong><span>Solutions électriques</span></div></a><div class="project-content"><p>Électricien</p><h3>Techno OL’J</h3><a href="https://technoolj-24.fr/" target="_blank" rel="noopener">Voir le site <span>↗</span></a></div></article>
+<article class="project-card reveal"><a class="project-preview project-domain" href="https://domainedesgarennes24.fr/" target="_blank" rel="noopener"><span class="project-browser"><i></i><i></i><i></i></span><div class="project-visual"><small>Séjours en Dordogne</small><strong>Domaine Des Garennes</strong><span>Gîtes • Hôtel • Balades à cheval</span></div></a><div class="project-content"><p>Hôtellerie et gîte</p><h3>Domaine Des Garennes</h3><a href="https://domainedesgarennes24.fr/" target="_blank" rel="noopener">Voir le site <span>↗</span></a></div></article>
+<article class="project-card reveal"><a class="project-preview project-heating" href="https://depannage-chaudiere-69.fr/" target="_blank" rel="noopener"><span class="project-browser"><i></i><i></i><i></i></span><div class="project-visual"><small>Confort thermique</small><strong>Qualit'Énergies</strong><span>Chauffage • Climatisation • Plomberie</span></div></a><div class="project-content"><p>Plombier chauffagiste</p><h3>Qualit’Énergies</h3><a href="https://depannage-chaudiere-69.fr/" target="_blank" rel="noopener">Voir le site <span>↗</span></a></div></article>
+<article class="project-card reveal"><a class="project-preview project-notary" href="https://rousseaud-notaire.fr/" target="_blank" rel="noopener"><span class="project-browser"><i></i><i></i><i></i></span><div class="project-visual"><small>Office notarial</small><strong>Maître Grégory Rousseaud</strong><span>Conseil • Actes • Accompagnement</span></div></a><div class="project-content"><p>Notaire</p><h3>Maître Grégory Rousseaud</h3><a href="https://rousseaud-notaire.fr/" target="_blank" rel="noopener">Voir le site <span>↗</span></a></div></article>
+<article class="project-card reveal"><a class="project-preview project-ges" href="https://gabarretelectriciteservices40.fr/" target="_blank" rel="noopener"><span class="project-browser"><i></i><i></i><i></i></span><div class="project-visual"><small>Électricité générale</small><strong>G.E.S</strong><span>Gabarret Électricité Services</span></div></a><div class="project-content"><p>Électricien</p><h3>Gabarret Électricité Services</h3><a href="https://gabarretelectriciteservices40.fr/" target="_blank" rel="noopener">Voir le site <span>↗</span></a></div></article>
+<article class="project-card reveal"><a class="project-preview project-building" href="https://balaya-gouraya-krys-bk.fr/" target="_blank" rel="noopener"><span class="project-browser"><i></i><i></i><i></i></span><div class="project-visual"><small>Bâtiment et rénovation</small><strong>BALAYA KRYS BK</strong><span>Conception • Construction • Rénovation</span></div></a><div class="project-content"><p>Maçonnerie et rénovation immobilière</p><h3>BALAYA KRYS BK</h3><a href="https://balaya-gouraya-krys-bk.fr/" target="_blank" rel="noopener">Voir le site <span>↗</span></a></div></article></div><p class="elypse-note reveal">Contribution commune : Web design • Front-end • SEO • Création et intégration de contenu • Optimisation</p></section>
+<section class="section" id="experience"><div class="section-heading reveal"><p class="section-number">04 — Parcours</p><h2>Expérience professionnelle</h2></div><div class="timeline">
+<article class="timeline-item featured reveal"><div class="timeline-date">Juin 2020 — aujourd’hui</div><div class="timeline-dot"></div><div class="timeline-content"><div><p class="company">Allowin · Casablanca, Maroc</p><h3>Webmaster</h3></div><ul><li>Conception, intégration et mise en ligne de sites WordPress.</li><li>Création et intégration de contenus, visuels, formulaires et appels à l’action.</li><li>Optimisation du responsive design, de l’ergonomie, des performances et du SEO.</li><li>Mises à jour, maintenance et résolution des problèmes techniques.</li></ul></div></article>
+<article class="timeline-item reveal"><div class="timeline-date">Janv. — avr. 2020</div><div class="timeline-dot"></div><div class="timeline-content"><div><p class="company">Outsourcia - GSK · Casablanca</p><h3>Agent help desk</h3></div><ul><li>Analyse des demandes utilisateurs, résolution des incidents matériels et logiciels et documentation des interventions.</li></ul></div></article>
+<article class="timeline-item reveal"><div class="timeline-date">Août — nov. 2019</div><div class="timeline-dot"></div><div class="timeline-content"><div><p class="company">Majorel - Solocal · Casablanca</p><h3>Webdesigner</h3></div><ul><li>Développement et mise à jour de sites WordPress, puis création et intégration de leurs contenus.</li></ul></div></article>
+<article class="timeline-item internship reveal"><div class="timeline-date">Févr. — mars 2019</div><div class="timeline-dot"></div><div class="timeline-content"><div><p class="company">RevoMade · À distance · São Paulo, Brésil</p><h3>Développement web et données <span class="status-label">Stage à distance</span></h3></div><ul><li>Développement d’un site publicitaire et d’une application de gestion de bases XML.</li><li>Création de bases XML et contribution au community management.</li></ul></div></article>
+<article class="timeline-item internship reveal"><div class="timeline-date">Févr. — avr. 2017</div><div class="timeline-dot"></div><div class="timeline-content"><div><p class="company">SOTEB · El Jadida, Maroc</p><h3>Technicien informatique <span class="status-label">Stage</span></h3></div><ul><li>Installation, configuration et maintenance des postes, systèmes, matériels et logiciels.</li></ul></div></article></div></section>
+<section class="section" id="formation"><div class="section-heading reveal"><p class="section-number">05 — Formation</p><h2>Diplômes</h2></div><div class="education-grid"><article class="education-card main-education reveal"><span>2017 — 2019</span><h3>Technicien spécialisé en techniques de développement informatique</h3><p>ISTA NTIC 1 · Casablanca</p></article><article class="education-card reveal"><span>2015 — 2017</span><h3>Technicien en maintenance et support informatique et réseau</h3><p>ISTA Al Massira · El Jadida</p></article><article class="education-card reveal"><span>Mars — juin 2015</span><h3>Formation bureautique Microsoft Office Specialist</h3><p>ISTA Hay Al Matar · El Jadida</p></article><article class="education-card compact reveal"><span>2013 — 2014</span><h3>Technicien en maintenance électrique industrielle</h3><p>ISTA Al Massira · El Jadida</p></article><article class="education-card compact reveal"><span>2012 — 2013</span><h3>Baccalauréat en sciences de la vie et de la Terre</h3><p>Lycée Bir Anzaran · El Jadida</p></article></div></section>
+<section class="section certification-section" id="certifications"><div class="section-heading reveal"><p class="section-number">06 — Certifications</p><h2>Certifications professionnelles</h2></div><p class="certification-intro reveal">Cette section est conçue pour accueillir mes certifications actuelles et futures. Un justificatif ou un lien officiel pourra être ajouté à chaque carte.</p><div class="certification-grid">
+<article class="certificate-card featured-certificate reveal"><span class="cert-issuer">OPEN</span><h3>English for Tourism Professionals</h3><p>Online Professional English Network</p><div class="cert-meta"><span>27 août 2026</span><span>Formation en ligne</span></div><button disabled>Justificatif à ajouter</button></article>
+<article class="certificate-card reveal"><span class="cert-issuer">Cisco</span><h3>CCNA 1 Routing and Switching</h3><p>Fondamentaux des réseaux, du routage et de la commutation.</p><button disabled>Justificatif à ajouter</button></article><article class="certificate-card reveal"><span class="cert-issuer">Cisco</span><h3>CCNA 2 Routing and Switching Essentials</h3><p>Configuration et administration des réseaux.</p><button disabled>Justificatif à ajouter</button></article><article class="certificate-card reveal"><span class="cert-issuer">Cisco</span><h3>IT Essentials</h3><p>Éditions 2017 et 2018.</p><button disabled>Justificatif à ajouter</button></article><article class="certificate-card reveal"><span class="cert-issuer">Microsoft</span><h3>Web et programmation</h3><p>JavaScript et HTML5 Application Development Fundamentals.</p><button disabled>Justificatif à ajouter</button></article><article class="certificate-card reveal"><span class="cert-issuer">Microsoft</span><h3>Software, Database et Networking Fundamentals</h3><p>Développement logiciel, bases de données et réseaux.</p><button disabled>Justificatif à ajouter</button></article><article class="certificate-card reveal"><span class="cert-issuer">NDG</span><h3>Linux Essentials</h3><p>Principes essentiels des systèmes Linux.</p><button disabled>Justificatif à ajouter</button></article><article class="certificate-card reveal"><span class="cert-issuer">Microsoft Office Specialist</span><h3>Word, Word Expert et Excel</h3><p>Maîtrise des outils bureautiques Microsoft Office.</p><button disabled>Justificatif à ajouter</button></article></div></section>
+<section class="section extras-section"><div class="languages reveal"><p class="section-number">Langues</p><div><span>Arabe</span><b>Courant · C2</b></div><div><span>Anglais</span><b>Courant · C2</b></div><div><span>Français</span><b>Élémentaire · A1</b></div></div><div class="interests reveal"><p class="section-number">Centres d’intérêt</p><div class="interest-list"><span>Développement de jeux vidéo</span><span>Technologies web</span><span>Lecture et écriture</span><span>Cinéma et musique</span><span>Jeux vidéo</span></div></div></section>
+<section class="contact-section" id="contact"><div class="contact-copy reveal"><p class="eyebrow"><span></span> Parlons de votre projet</p><h2>Vous recherchez un profil web polyvalent et expérimenté&nbsp;?</h2><p>Je suis disponible pour échanger autour d’un poste, d’une collaboration ou d’un projet digital.</p></div><div class="contact-actions reveal"><a class="contact-email" href="mailto:benhaddou.abdeljabbar@gmail.com"><small>E-mail</small><strong>benhaddou.abdeljabbar@gmail.com</strong><span>↗</span></a><a class="contact-link" href="https://linkedin.com/in/exele/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a><a class="contact-link" href="assets/CV_Abdeljabbar_Benhaddou_FR.pdf" download>CV français <span>↓</span></a></div></section></main>
+<footer><p>© <span id="year"></span> Abdeljabbar Benhaddou</p><p>Dark Land Project · Casablanca, Morocco</p></footer><script src="script.js"></script></body></html>
